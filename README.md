@@ -1,2 +1,8 @@
 # GV_Java_4AI
-Informatica anno 2026-2027
+
+In questo repository verranno 
+messi gli esercizi che 
+svilupperemo durante l'anno
+
+##
+## Primo esercizio
