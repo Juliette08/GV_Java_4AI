@@ -35,7 +35,7 @@ public class Playlist {
 
     //metodo play
     public String play() {
-        if (stato != "Play") {
+        if (!stato.equals("Play")) {
             stato = "Play";
         } else {
             stato = "Play";
@@ -47,9 +47,20 @@ public class Playlist {
 
     //metodo pause
     public String pause(){
-        if (stato == "Play"){
+        if (stato.equals("Play")){
             stato = "Pause";
-        }else (if )
+        }else if (stato.equals("Pause") || stato.equals("Pause") || stato.equals("Stop")){
+
+        }
+        return stato;
+    }
+
+
+
+    //metodo stop
+    public String stop(){
+        stato = "Stop";
+        return stato;
     }
 
 
