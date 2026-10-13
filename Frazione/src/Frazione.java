@@ -7,26 +7,29 @@ public class Frazione {
         this.d = d;
     }
 
+    public Frazione (Frazione f){
+        this.n = f.n;
+        this.d = f.d;
+    }
 
-    //
+
+    //5
+    public int sommaFrazione (Frazione f){
+
+    }
+    //mcm
+    //mcm : d
+    //* n
+    //n + n
+
 
     //7
-    public int moltiplicaFrazione (){
-        int molN = 0, molD = 0;
-        molN = n * n;
-        molD = d * d;
-        return n + d;
-    }
-
-
-    //9
     public int moltiplicaFrazione (Frazione f){
-       int p;
-       for (int i=0; i < p; i++) {
-           n = n * n;
-       }
-       return n;
+        n = n * f.n;
+        d = d * f.d;
+        return n + '/' + d;
     }
+
 
 
 
