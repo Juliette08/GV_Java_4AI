@@ -47,7 +47,6 @@ public class Domanda {
 
 
     public String getRispostaCorretta (){
-
     }
 
 
